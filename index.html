@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) -->
-        <title>Jackets Fashion</title>
+        <title>Tea House</title>
         
         <!-- ======================================================================================================== -->
         <!-- ===== A favicon is a small (16px X 16px) image displayed next to the page title in the browser tab ===== -->
@@ -66,7 +66,8 @@
                   },
                   fontFamily : {
                     bebas : ["Bebas Neue", "sans-serif"],
-                    roboto : ["Roboto", "sans-serif"]
+                    roboto : ["Roboto", "sans-serif"],
+                    manrope : ["Manrope", "sans-serif"],
                   }
                 }
               }
@@ -89,7 +90,7 @@
         <!-- ============================== -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 
         <!-- ============================================= -->
@@ -117,6 +118,30 @@
             <!-- ====== Navbar Section End ====== -->
 
             <!-- ===== Banner Section Start ====== -->
+            <section class="container mx-auto md:pt-20 mb-28 md:mb-44 hidden">
+                <div class="flex flex-col md:flex-row justify-center items-center md:ml-28">
+                    <div class="p-8 md:p-0">
+                        <h1 class="text-4xl md:text-7xl font-extrabold leading-tight">It's good <br> tea time at The Tea House</h1>
+                        <p class="md:text-lg font-medium py-5 md:py-8">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                        <button class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white md:text-xl font-bold p-3 md:p-5 rounded-xl">
+                            Explore More
+                            <img class="w-3 md:w-7 inline ms-1 md:pl-3" src="images/arrow.png" alt="">
+                        </button>
+                    </div>
+                    <!-- <div class="w-11/12 pl-20 flex justify-center items-end -ml-36"> -->
+                        <!-- <img class="" src="images/banner.png" alt=""> -->
+                        <div class="bg-[length:380px_280px] w-96 h-[280px] bg-[center_left_1rem] md:w-11/12 md:h-[500px] bg-[url('./images/banner.png')] md:bg-auto md:bg-left bg-no-repeat md:ms-10 flex justify-center items-end">
+                            <div class="bg-white flex w-fit px-4 py-2 md:px-7 md:py-5 rounded-lg shadow-2xl md:mb-3 -ml-32 md:-ml-48">
+                                <i class="fa-solid fa-star fa-2x text-transparent bg-clip-text bg-gradient-to-tl from-[#FFF082] via-[#FFC850] to-[#FFDC64]"></i>
+                                <div class="ml-2 md:ml-3">
+                                    <p class="text-lg md:text-3xl font-extrabold">5.00</p>
+                                    <p class="text-zinc-500 text-xs md:text-base">Trust Pilot Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </section>
             <!-- ===== Banner Section End ====== -->
         </header>
         <!-- ===== Header Section End ====== -->
@@ -124,31 +149,157 @@
         <!-- ===== Main Section Start ====== -->
         <main class="">
 
-            <!-- ===== Woman Jacket Section Start ====== -->
-                    <!-- ===== Woman Jacket Cart-1 Start ====== -->
-                    <!-- ===== Woman Jacket Cart-1 End ====== -->
+            <!-- ===== Our Featured Products Section Start ====== -->
+            <section class="font-manrope md:mx-44 mb-20 md:mb-32 hidden">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-center pb-5">Our Featured Products</h2>
+                <p class="text-zinc-500 font-medium text-center px-5 md:px-24 pb-14">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <!-- ===== Milk Tea Start ====== -->
+                    <div class="text-center bg-gradient-to-b from-zinc-100 to-zinc-0% py-8 mx-5 md:mx-0">
+                        <img class="mx-auto" src="images/tea-1.png" alt="">
+                        <div class="py-8">
+                            <h4 class=" text-xl md:text-2xl font-extrabold pb-3">Milk Tea</h4>
+                            <p class="text-zinc-500 font-semibold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                    </div>
+                    <!-- ===== Milk Tea End ====== -->
+                    
+                    <!-- ===== Black Tea Start ====== -->
+                    <div class="text-center bg-gradient-to-b from-zinc-100 to-zinc-0% py-8 mx-5 md:mx-0">
+                        <img class="mx-auto" src="images/tea-2.png" alt="">
+                        <div class="py-8">
+                            <h4 class=" text-xl md:text-2xl font-extrabold pb-3">Black Tea</h4>
+                            <p class="text-zinc-500 font-semibold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                    </div>
+                    <!-- ===== Black Tea End ====== -->
 
-                    <!-- ===== Woman Jacket Cart-2 Start ====== -->
-                    <!-- ===== Woman Jacket Cart-2 End ====== -->
+                    <!-- ===== Lemon Tea Start ====== -->
+                    <div class="text-center bg-gradient-to-b from-zinc-100 to-zinc-0% py-8 mx-5 md:mx-0">
+                        <img class="mx-auto" src="images/tea-3.png" alt="">
+                        <div class="py-8">
+                            <h4 class=" text-xl md:text-2xl font-extrabold pb-3">Lemon Tea</h4>
+                            <p class="text-zinc-500 font-semibold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                    </div>
+                    <!-- ===== Lemon Tea End ====== -->
 
-                    <!-- ===== Woman Jacket Cart-3 Start ====== -->
-                    <!-- ===== Woman Jacket Cart-3 End ====== -->
-            <!-- ===== Woman Jacket Section End ====== -->
+                    <!-- ===== Green Tea Start ====== -->
+                    <div class="text-center bg-gradient-to-b from-zinc-100 to-zinc-0% py-8 mx-5 md:mx-0">
+                        <img class="mx-auto" src="images/tea-4.png" alt="">
+                        <div class="py-8">
+                            <h4 class=" text-xl md:text-2xl font-extrabold pb-3">Green Tea</h4>
+                            <p class="text-zinc-500 font-semibold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                    </div>
+                    <!-- ===== Green Tea End ====== -->
+                </div>
+            </section>
+            <!-- ===== Our Featured Products Section End ====== -->
             
-            <!-- ===== Man Jacket Section Start ====== -->
-            <section class="">
-                    <!-- ===== Man Jacket Cart-1 Start ====== -->
-                    <!-- ===== Man Jacket Cart-1 End ====== -->
+            <!-- ===== Great Tea, Freshly Presented Section Start ====== -->
+            <section class="font-manrope md:ms-12 md:mb-32 hidden">
+                <div class="flex justify-center flex-col-reverse md:flex-row">
+                    <div class="grid grid-cols-2 gap-7 mx-5 md:mx-0 mb-20">
+                        <div class="md:w-[238px] h-20 md:h-32 bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-[0.1] rounded-xl"></div>
+                        <div class="md:w-60 bg-[#E6A623] bg-opacity-10 row-span-3 pt-14 rounded-xl">
+                            <img class="mx-auto" src="images/fresh-1.png" alt="">
+                        </div>
+                        <div class="md:w-60 bg-[#577639] bg-opacity-10 row-span-3 py-10 rounded-xl">
+                            <img class="mx-auto" src="images/fresh-2.png" alt="">
+                        </div>
+                        <div class="md:w-[238px] h-20 md:h-32 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF 0%] rounded-xl"></div>
+                    </div>
+                    <div class="md:w-5/12 md:ms-12 mx-4 text-center md:text-start mb-20 md:mb-0">
+                        <h2 class="text-3xl md:text-5xl font-extrabold mb-5 md:leading-normal">Great Tea, Freshly Presented</h2>
+                        <p class="font-medium text-zinc-500 mb-8">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                        <h5 class="text-xl font-extrabold mb-2">Unique Taste</h5>
+                        <p class="font-medium text-zinc-500 mb-5 md:pe-28">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                        <h5 class="text-xl font-extrabold mb-2">Premium Quality</h5>
+                        <p class="font-medium text-zinc-500 md:pe-28">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Great Tea, Freshly Presented Section End ====== -->
 
-                    <!-- ===== Man Jacket Cart-2 Start ====== -->
-                    <!-- ===== Man Jacket Cart-2 End ====== -->
-
-                    <!-- ===== Man Jacket Cart-3 Start ====== -->
-                    <!-- ===== Man Jacket Cart-3 End ====== -->
-            <!-- ===== Man Jacket Section End ====== -->
-
-            <!-- ===== Customer Service Section Start ====== -->
-            <!-- ===== Customer Service Section End ====== -->
+            <!-- ===== Meet Our Super Clients Section Start ====== -->
+            <section class="bg-gradient-to-t from-[#FF0000] to-[#FF8938] md:bg-gradient-to-l md:from-[#FF0000] md:to-[#FF8938] pt-16 md:pt-32 pb-10 md:pb-20 md:w-4/5 md:mx-auto mx-3 rounded-xl">
+                <div class="font-manrope flex flex-col md:flex-row items-center md:px-16">
+                    <div class="relative mb-20 md:mb-0">
+                        <div class="md:me-40 text-center md:text-start px-3 md:px-0">
+                            <h2 class="text-zinc-100 text-3xl md:text-5xl font-extrabold mb-5 md:leading-normal">Meet Our Super Clients</h2>
+                            <p class="text-zinc-100 md:font-semibold md:me-6 mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                            <!-- <button class="text-xl font-bold bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-transparent bg-clip-text bg-white">Show All</button> -->
+                            <!-- <button class="text-xl font-bold bg-white bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-transparent bg-clip-text"><span class="bg-white absolute">Show All</span></button> -->
+                            <button class="bg-white py-4 px-7 rounded-lg"><span class="text-xl font-bold bg-white bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-transparent bg-clip-text">Show All</span></button>
+                        </div>
+                        <div class="bg-[url('./images/bg_cup.png')] bg-no-repeat absolute inset-0 translate-y-0 md:translate-y-40 md:translate-x-24"></div>
+                    </div>
+                    <div class="relative">
+                        <div class="mix-blend-soft-light ms-16 md:ms-0">
+                            <div class="bg-white w-64 md:w-[376px] rounded-lg mb-5 md:mb-14">
+                                <div class="absolute w-10 md:w-14 -mt-3 md:-mt-5 -ml-3 md:-ml-4 border-2 md:border-4 border-white rounded-full">
+                                    <img class="" src="images/client.png" alt="">
+                                </div>
+                                <div class="pt-7 md:pt-9 pl-8 md:pl-10">
+                                    <span class="">
+                                        <p class="text-xs md:text-sm text-zinc-500 pb-2 md:pb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                        <h6 class="text-xs md:text-sm md:font-bold">Ilham Yuda</h6>
+                                        <p class="text-xs md:text-sm text-[#5D5A6F] pb-3 md:pb-6">Businessman</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="bg-white w-64 md:w-[376px] rounded-lg md:mb-14 ms-auto">
+                                <div class="absolute w-10 md:w-14 -mt-3 md:-mt-5 -ml-3 md:-ml-4 border-2 md:border-4 border-white rounded-full">
+                                    <img class="" src="images/client.png" alt="">
+                                </div>
+                                <div class="pt-7 md:pt-9 pl-8 md:pl-10">
+                                    <span class="">
+                                        <p class="text-xs md:text-sm text-zinc-500 pb-2 md:pb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                        <h6 class="text-xs md:text-sm md:font-bold">Ilham Yuda</h6>
+                                        <p class="text-xs md:text-sm text-[#5D5A6F] pb-3 md:pb-6">Businessman</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div class="bg-white w-[376px] rounded-lg mb-14 ml-14">
+                                <div class="absolute w-14 -mt-5 -ml-4 border-4 border-white rounded-full">
+                                    <img class="" src="images/client.png" alt="">
+                                </div>
+                                <div class="pt-9 pl-10">
+                                    <span class="">
+                                        <p class="text-sm text-zinc-500 pb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                        <h6 class="tetx-sm font-bold">Ilham Yuda</h6>
+                                        <p class="tetx-sm text-[#5D5A6F] pt-1 pb-8">Businessman</p>
+                                    </span>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div>
+                            <div class="absolute md:inset-y-24 md:right-20">
+                                <div class="bg-white w-80 md:w-[435px] rounded-lg ms-14 place-content-center">
+                                    <div class="absolute -mt-5 -ml-4 border-4 border-white rounded-full">
+                                        <img class="" src="images/client.png" alt="">
+                                    </div>
+                                    <div class="pt-10 pl-12 pe-10">
+                                        <span class="">
+                                            <p class="text-zinc-500 pb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                            <h6 class="font-bold">Ilham Yuda</h6>
+                                            <p class="text-[#5D5A6F] font-medium pt-1 pb-8">Designer</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="absolute inset-y-64 right-28">
+                                <img src="images/circles.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Meet Our Super Clients Section End ====== -->
+            
+        
+            
             
 
             <!-- ===== Frequently Asked Questions Section Start ====== -->
